@@ -1,16 +1,11 @@
 ---
 ---
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-@layer components {
-	@import "navigation.css";
-	@import "portfolio.css";
-	@import "sidebar.css";
-	@import "post.css";
-	@import "footer.css";
-}
+@import "navigation.css";
+@import "portfolio.css";
+@import "sidebar.css";
+@import "post.css";
+@import "footer.css";
 
 * {
 	margin: 0;
