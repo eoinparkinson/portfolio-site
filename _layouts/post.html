@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link href="/assets/css/highlight.css" rel="stylesheet" />
+	<title>Post - {{ page.title }}</title>
+</head>
+<body>
+	<main class="grid-container">
+		<section class="header-items">
+			{% include navigation.html %}
+		</section>
+
+		{% include sidebar.html %}
+
+		<section class="title-block">
+			<div>
+				<img class="post-cover-image" src="{{ page.image }}" alt="">
+			</div>
+			<div class="title-block-text">
+				<p class="date-item">{{ page.date | date: "%-d %B %Y" }}</p>
+				<h1 class="title-item">{{ page.title }}</h1>
+			</div>
+		</section>
+
+		<section class="content post-content">
+			
+			{% include anchor_headings.html html=content beforeHeading="True" anchorBody="#" %}
+		</section>
+	{% include footer.html %}
+	</main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.navbar {
+	color: white;
+	background-color: crimson;
+	padding: 1em;
+}
+
+.navbar li {
+	display: inline;
+	padding-right: 0.5em;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.active {
+	color:darkgray;
+	font-weight: bolder;
+}
+
+.inactive {
+	color: white;
+}
+
+.home-icon {
+	color: white;
+}

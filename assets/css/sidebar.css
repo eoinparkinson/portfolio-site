@@ -1,0 +1,53 @@
+.sidebar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 1em;
+	border-radius: 5px;
+	background-color: #161925;
+	padding: 1em;
+	margin-left: 1em;
+	height: fit-content;
+}
+
+.sidebar-items li {
+	margin: 3px 0;
+	margin-top: 1em;
+	padding-left: 3px;
+	border-left: 0px crimson solid;
+	font-weight: 500;
+}
+
+.sidebar a {
+	color: white;
+	transition: color 0.2;
+}
+
+.sidebar-h3 {
+	color: white;
+	border-bottom: 2px crimson solid;
+}
+
+.back-to-top a {
+	color: crimson;
+}
+
+.sidebar a:hover {color: crimson;}
+
+
+.sidebar-items > ul > li > ul > li {
+	margin: 0;
+	border-left: 0;
+	padding-left: 0.5em;
+	font-size: 0.9em;
+	font-weight: 100;
+	font-style: italic;
+	border-left: 2px crimson solid;
+}
+
+.sidebar-items > ul > li > ul > li > ul > li {
+	margin: 0;
+	border-left: 0;
+	padding-left: 0;
+	font-weight: 100;
+	font-style: italic;
+}
