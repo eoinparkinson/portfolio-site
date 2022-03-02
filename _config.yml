@@ -35,7 +35,6 @@ highlighter: rouge
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-postcss
   - jekyll-archives
 
 sass:
