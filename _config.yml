@@ -38,16 +38,6 @@ plugins:
   - jekyll-postcss
   - jekyll-archives
 
-feed:
-  tags: true
-
-jekyll-archives:
-  enabled: []
-  layout: post
-  permalinks:
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
 sass:
   sass_dir: _sass
 
