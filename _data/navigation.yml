@@ -1,7 +1,10 @@
 items:
   - title: Home
     url: /
+    name: Index
   - title: Portfolio
     url: /portfolio/
+    name: Portfolio
   - title: About
     url: /about/
+    name: About
