@@ -1,6 +1,7 @@
-- title: Home
-  url: /
-- title: Portfolio
-  url: /portfolio/
-- title: About
-  url: /about/
+items:
+  - title: Home
+    url: /
+  - title: Portfolio
+    url: /portfolio/
+  - title: About
+    url: /about/
