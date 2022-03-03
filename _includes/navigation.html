@@ -1,6 +1,6 @@
 <nav class="navbar" id="navbar">
 	<ul>
-		{% for item in site.data.navigation %}
+		{% for item in site.data.navigation.items %}
 			<li>
 				{% if page.url == item.url %}
 					<a class="active" href="{{ item.url }}">{{ item.title }}</a>
