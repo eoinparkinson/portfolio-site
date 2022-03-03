@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2022-02-25 00:33:19 +0000
+title: Welcome to Jekyll!
+date: 2022-03-03T13:46:09.219Z
 categories: blog demo
-tags: ["jekyll", "update"]
+tags:
+  - jekyll
+  - update
 excerpt_separator: <!--more-->
-image: "/assets/images/image-2.jpg"
+image: /assets/images/image-2.jpg
 ---
 You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. <!--more-->You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
