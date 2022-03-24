@@ -33,6 +33,10 @@
 	color: white;
 }
 
+.extra-info {
+	justify-content: space-around;
+}
+
 .post-tags li {
 	display: inline;
 	background-color: crimson;
