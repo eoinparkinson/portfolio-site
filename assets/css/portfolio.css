@@ -38,10 +38,11 @@
 }
 
 .post-tags li {
-	display: inline;
+	display: inline-block;
 	background-color: crimson;
 	padding: 0.3em;
 	margin-right: 0.3em;
+	margin-top: 0.3em;
 	border-radius: 5px;
 }
 
