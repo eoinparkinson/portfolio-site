@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 markdown: kramdown
 highlighter: rouge
-permalink: /posts/:title
+permalink: /portfolio/:title
 
 
 # Build settings
