@@ -10,9 +10,11 @@ tags:
 excerpt_separator: <!--more-->
 image: /assets/images/jekyll-blog-post.jpg
 ---
+This is a quick and also in-depth review on how I built this site. <!--more-->
+
 # Welcome
 
-Hi, I see that you're interested in how I built this website - cool. There are two answers to this, the short one, and the long one. <!--more-->
+Hi, I see that you're interested in how I built this website - cool. There are two answers to this, the short one, and the long one.
 
 # Short Answer
 
