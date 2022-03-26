@@ -12,9 +12,18 @@
 	overflow: hidden;
 }
 
+.portfolio-item:hover {
+	cursor: pointer;
+}
+
+
 .portfolio-item h1 a {
 	transition: all 0.1s ease-in-out;
 	color: white;
+}
+
+.portfolio-item:hover h1 a{
+	color: crimson;
 }
 
 .feature-image {
@@ -34,7 +43,9 @@
 }
 
 .extra-info {
-	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .post-tags li {
