@@ -5,19 +5,22 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/images'
 collections:
-  - name: "home"
-    label: "Home"
-    file: /index.md
-    create: false
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Profile Picture", name: "profile-pic", widget: "image" }
-      - { label: "Caption", name: "caption", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
-      - { label: "Show Divider", name: "div", widget: "boolean" , default: true}
+  - name: "pages"
+    label: "Pages"
+    files: 
+      - label: "Home"
+        name: "home"
+        file: /index.md
+        create: false
+        editor:
+          preview: false
+        fields:
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'home' }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Profile Picture", name: "profile-pic", widget: "image" }
+          - { label: "Caption", name: "caption", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Show Divider", name: "div", widget: "boolean" , default: true}
   - name: 'portfolio'
     label: 'Portfolio'
     folder: '_posts/'
