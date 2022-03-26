@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "My First Post!"
+excerpt: Sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 date:   2022-02-25 00:33:19 +0000
 categories: blog
 tags: ["update"]
-excerpt_separator: <!--more-->
 image: /assets/images/image-1.jpg
 ---
-Sit amet, consectetur adipiscing elit, sed do eiusmod tempor <!--more--> incididunt ut labore et dolore magna aliqua. 
+Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Id neque aliquam vestibulum morbi blandit. 
 

@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "My Second Post"
+excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque.
 date:   2022-02-25 00:33:19 +0000
 categories: blog
 tags: ["update"]
-excerpt_separator: <!--more-->
 image: /assets/images/image-3.jpg
 ---
-Sit amet, consectetur adipiscing elit, sed do eiusmod tempor <!--more--> incididunt ut labore et dolore magna aliqua. 
+Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Id neque aliquam vestibulum morbi blandit. 
 
