@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Hi, I'm Eoin.
+title: Home
+caption: Hi, I'm Eoin.
 subtitle: "Welcome to my portfolio website"
 div: true
 show-callout: true
@@ -13,6 +14,6 @@ I'm a first year Computer Science student from Donegal studying at Dublin City U
 
 
 # What's this site for?
-This is a general showcase of what I've been up to lately, check out my [portfolio](/portfolio) to see my previous, current and planned projects.
+This is a general showcase of what I've been up to lately. Check out my [portfolio](/portfolio) to see my previous, current and planned projects.
 
-See [how I built this site](/blog/2022/03/20/how-i-built-my-website.html)!
+See [how I built this site](/posts/how-i-built-my-website.html)!
