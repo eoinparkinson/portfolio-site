@@ -2,13 +2,13 @@
 layout: post
 title: How I built this site
 excerpt: This is a quick and also in-depth review on how I built this site.
-date: 2022-03-26T16:25:41.425Z
+date: 2022-03-26T17:12:08.830Z
 categories: blog
+image: /assets/images/jekyll-blog-post.jpg
 tags:
   - update
   - website
   - jekyll
-image: /assets/images/jekyll-blog-post.jpg
 ---
 # Welcome
 
