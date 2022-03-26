@@ -4,6 +4,7 @@
 
 layout: home
 title: Home
+profile-pic: "/assets/images/profile-pic.jpg"
 caption: Hi, I'm Eoin.
 subtitle: "Welcome to my portfolio website"
 div: true
