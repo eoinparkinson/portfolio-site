@@ -25,6 +25,7 @@ body {
 	background-color: #08090d;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	min-height: 100vh;
 }
 
@@ -79,6 +80,7 @@ pre {
 	.title-block { grid-area: title-block }
 	footer { grid-area: footer; }
 	gap: 2em;
+	align-items: to;
 }
 
 
