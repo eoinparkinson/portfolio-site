@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "My Second Post"
+title: My Second Post
 excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque.
-date:   2022-02-25 00:33:19 +0000
+date: 2022-03-02T00:00:00.000Z
 categories: blog
-tags: ["update"]
 image: /assets/images/image-3.jpg
+tags:
+  - update
 ---
 Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
