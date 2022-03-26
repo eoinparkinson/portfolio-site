@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "My First Post!"
+title: My First Post!
 excerpt: Sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-date:   2022-02-25 00:33:19 +0000
+date: 2022-02-24T00:00:00.000Z
 categories: blog
-tags: ["update"]
 image: /assets/images/image-1.jpg
+tags:
+  - update
 ---
 Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
