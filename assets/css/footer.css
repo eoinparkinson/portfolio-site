@@ -1,8 +1,10 @@
 footer {
 	color: white;
-	height: 150px;
-	width: 100%;
-	box-sizing: border-box;
 	padding: 5%;
 	background-color: crimson;
+	box-sizing: border-box;
+    height: 200px;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
 }
