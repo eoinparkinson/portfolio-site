@@ -3,8 +3,8 @@
 	max-width: 100%;
 	height: 20em;
 	object-fit: cover;
-	border-radius: 0px;
 	border-radius: 5px 5px 0 0;
+	border-width: 0;
 }
 
 .title-block-text {
@@ -18,7 +18,7 @@
 	margin: 0;
 	font-size: 2em;
 	text-align: center;
-	margin: 0 0 1em 0;
+	margin: 1em 0;
 }
 
 .title-block-text p {
