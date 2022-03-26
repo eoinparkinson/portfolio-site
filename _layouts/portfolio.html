@@ -8,40 +8,42 @@
 	<title>{{ page.title }} - {{ site.title }}</title>
 </head>
 <body>
-	<main class="grid-container">
-		<section class="header-items">
-			{% include navigation.html %}
-			<h1 class="title code-font">{{ page.title }}</h1>
-		</section>
+	<main>
+		{% include navigation.html %}
+		<section class="grid-container">
+			<section class="header-items">
+				<h1 class="title code-font">{{ page.title }}</h1>
+			</section>
 
-		{% include sidebar.html %}
+			{% include sidebar.html %}
 
-		<section class="content">
-			<section class="portfolio-list">
-				{% for post in site.posts %}
-				<div class="portfolio-item grow">
-					<img class="feature-image" src="{{ post.image }}"" alt="">
+			<section class="content">
+				<section class="portfolio-list">
+					{% for post in site.posts %}
+					<div class="portfolio-item grow">
+						<img class="feature-image" src="{{ post.image }}"" alt="">
 
-					<div class="portfolio-item-text">
-						<h1 class="code-font"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+						<div class="portfolio-item-text">
+							<h1 class="code-font"><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
-						<div class="extra-info">
-							<p>{{ post.excerpt | remove: "#" }}</p>
-							<ul class="post-tags">
-								{% for tag in post.tags %}
-								<li># {{ tag }}</li>
-								{% endfor %}
-							</ul>
+							<div class="extra-info">
+								<p>{{ post.excerpt | remove: "#" }}</p>
+								<ul class="post-tags">
+									{% for tag in post.tags %}
+									<li># {{ tag }}</li>
+									{% endfor %}
+								</ul>
+							</div>
+
 						</div>
-
 					</div>
-				</div>
-				{% endfor %}
+					{% endfor %}
+				</section>
 			</section>
 		</section>
 	</main>
+	{% include footer.html %}
 
 </body>
-{% include footer.html %}
 
 </html>
