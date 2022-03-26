@@ -1,0 +1,13 @@
+.profile-pic {
+	height: 10em;
+	width: 10em;
+	border-radius: 100%;
+}
+
+.gap {
+	border-top: 0.3em solid crimson;
+}
+
+.profile-header h1 {
+	margin-bottom: 0.5em;
+}
