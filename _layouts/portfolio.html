@@ -20,7 +20,7 @@
 			<section class="content">
 				<section class="portfolio-list">
 					{% for post in site.posts %}
-					<div class="portfolio-item grow">
+					<div onclick="location.href='{{ post.url }}';" class="portfolio-item grow">
 						<img class="feature-image" src="{{ post.image }}"" alt="">
 
 						<div class="portfolio-item-text">
@@ -28,11 +28,13 @@
 
 							<div class="extra-info">
 								<p>{{ post.excerpt | remove: "#" }}</p>
-								<ul class="post-tags">
-									{% for tag in post.tags %}
-									<li># {{ tag }}</li>
-									{% endfor %}
-								</ul>
+								<div>
+									<ul class="post-tags">
+										{% for tag in post.tags %}
+										<li># {{ tag }}</li>
+										{% endfor %}
+									</ul>
+								</div>
 							</div>
 
 						</div>
