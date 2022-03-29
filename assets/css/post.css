@@ -45,3 +45,14 @@
 	object-fit: cover;
 	border-radius: 5px;
 }
+
+.post-content h1 {
+	margin-bottom: 0.5em;
+	font-weight: 900;
+}
+
+.post-content h2 {
+	font-size: 1em;
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+}
