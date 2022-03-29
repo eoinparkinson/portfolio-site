@@ -12,11 +12,12 @@
 	margin-bottom: 0.5em;
 }
 
+.profile-pic {
+	border: 0.3em solid crimson;
+	text-align: center;
+}
+
 @media screen and (max-width: 1000px) {
-	.profile-pic {
-		border: 0.3em solid crimson;
-		text-align: center;
-	}
 	.background-div {
 		border-top: 0.3em solid crimson;
 		margin-top: -2em;
