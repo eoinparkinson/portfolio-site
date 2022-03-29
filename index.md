@@ -17,4 +17,4 @@ I'm a first year Computer Science student from Donegal studying at Dublin City U
 # What's this site for?
 This is a general showcase of what I've been up to lately. Check out my [portfolio](/portfolio) to see my previous, current and planned projects.
 
-See [how I built this site](/posts/how-i-built-my-website.html)!
+See [how I built this site](/portfolio/how-i-built-my-website.html)!
