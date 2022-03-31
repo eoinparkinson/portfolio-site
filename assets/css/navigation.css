@@ -11,6 +11,11 @@
 
 .navbar a {
 	text-decoration: none;
+	transition: color 0.15s ease-in-out;
+}
+
+.navbar a:hover {
+	color: grey;
 }
 
 .active {
