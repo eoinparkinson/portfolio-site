@@ -22,7 +22,8 @@ This site was generated using [Jekyll](https://www.jekyllrb.com){:target="_blank
 
 As stated above, I'm using a static site builder called **[Jekyll](https://www.jekyllrb.com)**{:target="_blank"}. This is for two main reasons:
 
-1. Developer Experience:
+1. Developer Experience
+
 2. Price
 
 ## Developer Experience
