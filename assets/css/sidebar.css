@@ -17,6 +17,10 @@
 	font-weight: 500;
 }
 
+.sidebar ol, ul {
+	margin-left: 0;
+}
+
 .sidebar a {
 	color: white;
 	transition: color 0.2;
