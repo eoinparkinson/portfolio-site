@@ -1,5 +1,10 @@
 items:
   - title: Instagram
-    username: "eoinparkinson"
-    url: "https://www.instagram.com"
+    username: eoinparkinson
+    url: https://www.instagram.com
     enabled: true
+social:
+  - enabled: true
+    name: Instagram
+    username: eoinparkinson
+    url: https://www.instagram.com
