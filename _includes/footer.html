@@ -3,7 +3,7 @@
 	<section class="social-icons">
 
 		<ul>
-			{% for item in site.data.social.items %}
+			{% for item in site.data.social.social %}
 				<li>
 					{% assign provider = "fa fa-" | append: item.title | downcase %}
 					{% assign url = item.url | append: "/" | append: item.username %}
