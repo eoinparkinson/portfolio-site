@@ -52,7 +52,7 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: url, widget: string }
       - label: "Social"
-        name: "social"
+        name: "items"
         file: "_data/social.yml"
         fields:
           - label: "Social Links"
