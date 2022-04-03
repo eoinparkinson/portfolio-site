@@ -56,3 +56,12 @@
 	margin-top: 1.2em;
 	margin-bottom: 0.5em;
 }
+
+.post-content ol, ul, li {
+	box-sizing: border-box;
+	margin-left: 1em;
+}
+
+.sidebar-items ol, ul, li {
+	margin-left: 0;
+}
