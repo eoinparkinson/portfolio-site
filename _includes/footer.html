@@ -1,3 +1,17 @@
 <footer class="custom-footer">
 	<h1>Contact Me</h1>
+	<section class="social-icons">
+
+		<ul>
+			{% for item in site.data.social.items %}
+				<li>
+					{% assign provider = "fa fa-" | append: item.title | downcase %}
+					{% assign url = item.url | append: "/" | append: item.username %}
+					<a href="{{ url }}" target="_blank">
+						<i class="{{ provider }}"></i>
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
 </footer>
