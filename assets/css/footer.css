@@ -8,3 +8,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.social-icons i {
+	color: white;
+	font-size: 30px;
+	transition: all 0.15s ease-in-out;
+}
+
+.social-icons i:hover {
+	color: grey;
+}
