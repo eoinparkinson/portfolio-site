@@ -18,3 +18,8 @@ footer {
 .social-icons i:hover {
 	color: grey;
 }
+
+.social-icons li {
+	display: inline;
+	padding-right: 0.5em;
+}
