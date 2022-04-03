@@ -3,3 +3,7 @@ items:
     name: Instagram
     username: eoinparkinson
     url: https://www.instagram.com
+  - enabled: true
+    name: Twitter
+    username: eoinparkinson
+    url: https://www.twitter.com
