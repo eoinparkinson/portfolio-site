@@ -51,3 +51,15 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: url, widget: string }
+      - label: "Social"
+        name: "social"
+        file: "_data/social.yml"
+        fields:
+          - label: "Social Links"
+            name: social
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Username, name: username, widget: string }
+              - { label: Provider Url, name: url, widget: string }
+              - { label: Enabled, name: enabled, widget: "boolean", default: true}
