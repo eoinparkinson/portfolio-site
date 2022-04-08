@@ -24,6 +24,7 @@
 						<img class="feature-image" src="{{ post.image }}"" alt="">
 
 						<div class="portfolio-item-text">
+							<p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
 							<h1 class="code-font"><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
 							<div class="extra-info">

@@ -76,3 +76,9 @@
 	margin-top: -3px;
 	margin-bottom: 3px;
 }
+
+.post-date {
+	color: crimson;
+	font-style: italic;
+	font-size: 0.8em;
+}
