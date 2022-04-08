@@ -5,8 +5,9 @@ excerpt: Transforming a Raspberry Pi 4 into a WAP for my college dorm.
 image: /assets/images/pi-fi-cover-post.jpg
 date: 2022-04-08T21:11:09.804Z
 tags:
+  - networking
   - raspberry-pi
-  - projects
+  - iot
 ---
 # The Idea
 
