@@ -7,3 +7,7 @@ items:
     name: Twitter
     username: eoinparkinson
     url: https://www.twitter.com
+  - enabled: true
+    name: Github
+    username: eoinparkinson
+    url: https://www.github.com
