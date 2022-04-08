@@ -2,7 +2,7 @@
 layout: post
 title: Raspberry Pi - Wi-Fi Router
 excerpt: Transforming a Raspberry Pi 4 into a WAP for my college dorm.
-image: https://projects-static.raspberrypi.org/projects/raspberry-pi-getting-started/1f62b5325aea51d6b089731ba9eea9bced402315/en/images/pi-plug-in.gif
+image: /assets/images/pi-fi-cover-post.jpg
 date: 2022-04-08T21:11:09.804Z
 tags:
   - raspberry-pi
