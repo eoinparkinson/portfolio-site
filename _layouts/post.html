@@ -9,11 +9,14 @@
 	<title>Post - {{ page.title }}</title>
 </head>
 <body>
-	<main class="grid-container">
+	<header class="page-header">
 		<section class="header-items">
 			{% include navigation.html %}
 		</section>
+	</header>
 
+	
+	<main class="grid-container">
 		{% include sidebar.html %}
 
 		<section class="content post-content">
@@ -29,7 +32,10 @@
 			{% include anchor_headings.html html=content beforeHeading="True" anchorBody="|" %}
 
 		</section>
+
 	</main>
+
+	<!-- {% include latest-posts.html %} -->
 	{% include footer.html %}
 </body>
 </html>
