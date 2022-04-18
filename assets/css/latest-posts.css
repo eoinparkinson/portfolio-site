@@ -1,0 +1,25 @@
+.latest-posts h1, h2, h3 {
+	color: white;
+}
+
+.extra-info {
+	color: white;
+}
+
+.latest-posts {
+	display: grid;
+	gap: 3rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+	max-width: 700px;
+	margin: 1em auto;
+	overflow: hidden;
+}
+
+.latest-posts-header {
+	text-align: left;
+}
+
+.div-item {
+	margin: 0 auto;
+	overflow: hidden;
+}
