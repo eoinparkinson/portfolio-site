@@ -9,11 +9,12 @@
 </head>
 <body>
 	<main>
-		{% include navigation.html %}
+		<header class="page-header">
+			{% include navigation.html %}
+			<h1 class="title code-font">{{ page.title }}</h1>
+		</header>
 		<section class="grid-container">
-			<section class="header-items">
-				<h1 class="title code-font">{{ page.title }}</h1>
-			</section>
+
 
 			{% include sidebar.html %}
 
