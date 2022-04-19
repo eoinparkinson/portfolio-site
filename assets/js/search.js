@@ -23,7 +23,7 @@
           let tag = tags[i].replaceAll("&quot;", '');       // using "&quot; as this is the quotation mark in html markup"
           appendString += '<li> # ' + tag + '</li>';
         }
-        
+
         appendString += '</ul>';
 
         appendString += '</div>';
@@ -34,7 +34,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = "<div class='no-match-query'><h1>Hmm...</h1><p>There doesn't seem to be a match with that query.</p></div>";
     }
   }
 
