@@ -22,7 +22,7 @@
 				<section class="portfolio-list">
 					{% for post in site.posts %}
 					<div onclick="location.href='{{ post.url }}';" class="portfolio-item grow">
-						<img class="feature-image" src="{{ post.image }}"" alt="">
+						<img class="feature-image" src="{{ post.image }}" alt="">
 
 						<div class="portfolio-item-text">
 							<p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
