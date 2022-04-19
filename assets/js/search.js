@@ -6,9 +6,30 @@
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
-        var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        let item = store[results[i].ref];
+        let tags = item.tags.substr(1).slice(0, -1).split(",");
+        appendString += '<div onclick="location.href=' + "'" + item.url + "'" + ';" class="portfolio-item grow">';
+        appendString += '<img class="feature-image" src=' + "'" + item.image + "'" + ' alt="">';
+        appendString += '<div class="portfolio-item-text">';
+        appendString += '<p class="post-date">' + item.date + '</p>';
+        appendString += '<h1 class="code-font"><a href="' + item.url + '">' + item.title + '</a></h1>';
+        appendString += '<div class="extra-info">';
+        appendString += '<p>' + item.excerpt + '</p>';
+        appendString += '<div>';
+        appendString += '<ul class="post-tags">';
+
+        // for loop to iterate over all of our tags so that we can append them to our unordered list
+        for (let i = 0; i < tags.length; i ++) {
+          let tag = tags[i].replaceAll("&quot;", '');       // using "&quot; as this is the quotation mark in html markup"
+          appendString += '<li> # ' + tag + '</li>';
+        }
+        
+        appendString += '</ul>';
+
+        appendString += '</div>';
+        appendString += '</div>';
+        appendString += '</div>';
+        appendString += '</div>'
       }
 
       searchResults.innerHTML = appendString;
