@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<header class="page-header">
+	{% include navigation.html %}
+	<h1 class="title code-font">{{ page.title }}</h1>
+</header>
+
+<section class="search-page content">
+	
+	<section class="search-form">
+		<form class="search-bar" action="/search" method="get">
+			<div class="search-form-div">
+				<button type="submit" id="search-button">Search</button>
+				<input type="text" id="search-box" name="query" placeholder="Search portfolio">
+			</div>
+		</form>
+	</section>
+	  
+	<section class="search-results">
+		<div class="portfolio-list" id="search-results">
+			<!-- Search Results Go Here -->
+		</div>
+	</section>
+</section>
+  
+<script>
+window.store = {
+	{% for post in site.posts %}
+		"{{ post.url | slugify }}": {
+			"title": "{{ post.title | xml_escape }}",
+			"image": "{{ post.image | xml_escape }}",
+			"date": "{{ post.date | date: '%-d %B %Y' | xml_escape }}",
+			"excerpt": "{{ post.excerpt | remove: '#' | xml_escape }}",
+			"tags" : "{{ post.tags | xml_escape }}",
+			"content": {{ post.content | strip_html | strip_newlines | jsonify }},
+			"url": "{{ post.url | xml_escape }}"
+		}
+		{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+};
+</script>
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
