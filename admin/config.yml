@@ -21,6 +21,8 @@ collections:
           - { label: "Caption", name: "caption", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Show Divider", name: "div", widget: "boolean" , default: true}
+          - { label: "Show Callout", name: "callout", widget: "boolean", default: true }
+          - { label: "Page Content", name: "page-content", widget: "text" }
   - name: 'portfolio'
     label: 'Portfolio'
     folder: '_posts/'
