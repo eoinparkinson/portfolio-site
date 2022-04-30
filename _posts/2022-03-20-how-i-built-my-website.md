@@ -23,7 +23,6 @@ This site was generated using [Jekyll](https://www.jekyllrb.com){:target="_blank
 As stated above, I'm using a static site builder called **[Jekyll](https://www.jekyllrb.com)**{:target="_blank"}. This is for two main reasons:
 
 1. Developer Experience
-
 2. Price
 
 ## Developer Experience
@@ -40,7 +39,7 @@ Of course there are limitations to the free plan with any hosting provider, howe
 
 As with any website, updating the content should be made easy. That's why I've gone ahead and integrated [NetlifyCMS](https://www.netlifycms.org/), an open-source Content Management System that is well establish in the SSG scene.
 
-NetlifyCMS integrates with your Git workflow, and pushes new changes directly to the site build files, so that when you invoke a new build, the new updated files will be applied to the site.
+NetlifyCMS integrates with your Git workflow, and pushes new changes directly to the site build files, so that when you invoke a new build, the new updated files will be applied to the site. It's pretty neat stuff...
 
 ## Project Management
 
@@ -48,7 +47,7 @@ I am using [GitHub](https://www.github.com). This was a no brainer. GitHub has a
 
 ## Time Inputted
 
-The time taken to design this website has been 10+ **active** **hours** of work. 
+The time taken to design this website has been 10+ **active** **hours** of work. How have I been keeping track of this? Check out [](https://wakatime.com)**[Wakatime](https://wakatime.com)** :)
 
 ## More
 
