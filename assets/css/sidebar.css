@@ -29,7 +29,6 @@
 
 .sidebar a {
 	color: white;
-	transition: color 0.2;
 }
 
 .sidebar-h3 {
@@ -41,7 +40,9 @@
 	color: crimson;
 }
 
-.sidebar a:hover {color: crimson;}
+.sidebar a:hover {
+	color: crimson;
+}
 
 
 .sidebar-items > ul > li > ul > li {
