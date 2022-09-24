@@ -10,7 +10,7 @@ callout: false
 ---
 # Who am I?
 
-I'm a first year Computer Science student from Donegal studying at Dublin City University, Ireland.
+I'm a second year Computer Science student from Donegal studying at Dublin City University, Ireland.
 
 # What's this site for?
 
