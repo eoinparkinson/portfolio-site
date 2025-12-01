@@ -3,6 +3,7 @@
 backend:
   name: github
   branch: master # Branch to update (optional; defaults to master)
+  repo: eoinparkinson/portfolio-site
 media_folder: 'assets/images'
 collections:
   - name: "pages"
